@@ -24,13 +24,46 @@ body {
 .form-box {
   display: inline-block;
   background-color: white;
+  border: 1px solid #e6e6e6;
+  width: 320px;
+  text-align: center;
 }
 
-.btn {
+.btn, .btn:hover {
   background-color: #3897f0;
   border-color: #3897f0;
   color: white;
   font-weight: bold;
   margin: auto;
   display: inline-block;
+  width: 290px;
+  margin-bottom: 10px;
+}
+
+.or {
+  width:300px;
+	text-align:center;
+  margin: auto;
+}
+
+hr {
+  display: block;
+  width: 30%;
+
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}
+
+span {
+  font-weight: bold;
+}
+
+.apps {
+  text-align: center;
 }
