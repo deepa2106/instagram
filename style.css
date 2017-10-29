@@ -1,0 +1,114 @@
+body {
+  background-color: #fafafa;
+  margin-top: 40px;
+}
+
+.blank {
+  background-color: #fafafa;
+  height: 20px;
+}
+
+.pic {
+  display: inline-block;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.logo {
+  margin: 22px auto 8px 50px;
+  width: 200px;
+  display: inline-block;
+}
+
+.form-control {
+  background-color: #fafafa;
+  width: 250px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.form-box {
+  display: inline-block;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  width: 350px;
+  text-align: center;
+  padding: 15px;
+}
+
+.btn, .btn:hover {
+  background-color: #3897f0;
+  border-color: #3897f0;
+  color: white;
+  font-weight: bold;
+  margin: auto;
+  display: inline-block;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.or {
+  width:300px;
+	text-align:center;
+  margin: auto;
+}
+
+hr {
+  display: block;
+  width: 30%;
+
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}
+
+span {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login {
+  border: 1px #e6e6e6 solid;
+  background-color: white;
+  margin-top: 10px;
+  text-align: center;
+  padding: 15px;
+  width: 350px;
+}
+
+#logincolor {
+  color: #3896f1;
+}
+
+.apps {
+  text-align: center;
+}
+
+.apps img {
+  width: 120px;
+}
+
+li {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 0px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+a, a:visited {
+  color: #003569;
+  text-decoration: none;
+}
+
+#copyright {
+  float: right;
+  color: #999999;
+}
