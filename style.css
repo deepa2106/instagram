@@ -1,5 +1,6 @@
 body {
   background-color: #fafafa;
+  margin-top: 40px;
 }
 
 .blank {
@@ -9,6 +10,8 @@ body {
 
 .pic {
   display: inline-block;
+  margin: auto;
+  margin-top: 40px;
 }
 
 .logo {
@@ -19,14 +22,18 @@ body {
 
 .form-control {
   background-color: #fafafa;
+  width: 250px;
+  display: inline-block;
+  padding: 5px;
 }
 
 .form-box {
   display: inline-block;
   background-color: white;
   border: 1px solid #e6e6e6;
-  width: 320px;
+  width: 350px;
   text-align: center;
+  padding: 15px;
 }
 
 .btn, .btn:hover {
@@ -36,7 +43,7 @@ body {
   font-weight: bold;
   margin: auto;
   display: inline-block;
-  width: 290px;
+  width: 250px;
   margin-bottom: 10px;
 }
 
@@ -62,8 +69,46 @@ hr {
 
 span {
   font-weight: bold;
+  text-decoration: none;
+}
+
+.login {
+  border: 1px #e6e6e6 solid;
+  background-color: white;
+  margin-top: 10px;
+  text-align: center;
+  padding: 15px;
+  width: 350px;
+}
+
+#logincolor {
+  color: #3896f1;
 }
 
 .apps {
   text-align: center;
+}
+
+.apps img {
+  width: 120px;
+}
+
+li {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 0px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+a, a:visited {
+  color: #003569;
+  text-decoration: none;
+}
+
+#copyright {
+  float: right;
+  color: #999999;
 }
