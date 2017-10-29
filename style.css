@@ -1,0 +1,16 @@
+.blank {
+  background-color: #fafafa;
+  height: 20px;
+}
+
+.pic {
+  display: inline-block;
+}
+
+.form-control {
+  background-color: #fafafa;
+}
+
+.form-box {
+  display: inline-block;
+}
