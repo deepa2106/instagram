@@ -1,3 +1,7 @@
+body {
+  background-color: #fafafa;
+}
+
 .blank {
   background-color: #fafafa;
   height: 20px;
@@ -7,10 +11,15 @@
   display: inline-block;
 }
 
+.logo {
+  margin: 22px auto 8px;
+}
+
 .form-control {
   background-color: #fafafa;
 }
 
 .form-box {
   display: inline-block;
+  background-color: white;
 }
