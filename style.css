@@ -12,7 +12,9 @@ body {
 }
 
 .logo {
-  margin: 22px auto 8px;
+  margin: 22px auto 8px 50px;
+  width: 200px;
+  display: inline-block;
 }
 
 .form-control {
@@ -22,4 +24,13 @@ body {
 .form-box {
   display: inline-block;
   background-color: white;
+}
+
+.btn {
+  background-color: #3897f0;
+  border-color: #3897f0;
+  color: white;
+  font-weight: bold;
+  margin: auto;
+  display: inline-block;
 }
